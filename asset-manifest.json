@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7907b68.css",
-    "main.js": "/static/js/main.22af110f.js",
+    "main.css": "/static/css/main.7d404bcf.css",
+    "main.js": "/static/js/main.fa762fac.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Instagram black.svg": "/static/media/Instagram black.8e8849ead2c387978eb6.svg",
-    "static/media/Logo.svg": "/static/media/Logo.e36493c59b6b60da5a91.svg",
-    "static/media/Twitter black.svg": "/static/media/Twitter black.f7b188e1fa71d06ea977.svg",
-    "static/media/Github black.svg": "/static/media/Github black.3f7dd8df4e05b94c3bf0.svg",
+    "static/media/Instagram black.svg": "/static/media/Instagram black.1afb71b57d881851c2f1.svg",
+    "static/media/Logo.svg": "/static/media/Logo.828faaf2d54bd4e645de.svg",
+    "static/media/Twitter black.svg": "/static/media/Twitter black.c8fcc289cb0f94ea415f.svg",
+    "static/media/Github black.svg": "/static/media/Github black.7144316af00958590778.svg",
     "index.html": "/index.html",
-    "static/media/LinkedIn black.svg": "/static/media/LinkedIn black.58130cad20fa34ea91d5.svg",
-    "static/media/Menu 1.svg": "/static/media/Menu 1.b156994e74cf2fb70aef.svg",
-    "static/media/Close.svg": "/static/media/Close.00445e177bb437b1c524.svg",
-    "main.e7907b68.css.map": "/static/css/main.e7907b68.css.map",
-    "main.22af110f.js.map": "/static/js/main.22af110f.js.map",
+    "static/media/LinkedIn black.svg": "/static/media/LinkedIn black.ddc43d2e705bf7fb189b.svg",
+    "static/media/Menu 1.svg": "/static/media/Menu 1.02d6024bcb77993a600c.svg",
+    "static/media/Close.svg": "/static/media/Close.6fb94c914ada28d6ab2e.svg",
+    "main.7d404bcf.css.map": "/static/css/main.7d404bcf.css.map",
+    "main.fa762fac.js.map": "/static/js/main.fa762fac.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7907b68.css",
-    "static/js/main.22af110f.js"
+    "static/css/main.7d404bcf.css",
+    "static/js/main.fa762fac.js"
   ]
 }
