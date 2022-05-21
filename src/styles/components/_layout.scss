@@ -1,0 +1,71 @@
+.Layout {
+  border-left: 2px solid $complementary;
+  border-right: 2px solid $complementary;
+  margin: 40px 20px 0 20px;
+  padding-top: 20px;
+
+  &__social,
+  &__mail {
+    width: 40px;
+    height: 200px;
+    position: fixed;
+    top: 200px;
+    background-color: $primary;
+  }
+
+  &__social {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 0;
+    padding: 10px 0;
+
+    .twitter {
+      background-image: url('..//assets/Twitter\ black.svg');
+    }
+
+    .github {
+      background-image: url('../assets/Github\ black.svg');
+    }
+
+    .instagram {
+      background-image: url('../assets/Instagram\ black.svg');
+    }
+
+    .linkedin {
+      background-image: url('../assets/LinkedIn\ black.svg');
+    }
+
+    a {
+      width: 15px;
+      height: 15px;
+      padding: 5px;
+      border-radius: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      &:hover {
+        box-shadow: 0 0 15px 1px $secondary;
+      }
+    }
+  }
+
+  &__mail {
+    right: 0;
+    padding: 10px 0;
+
+    a {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        color: $complementary;
+        transform: rotate(90deg);
+        font-size: $text-small;
+      }
+    }
+  }
+}

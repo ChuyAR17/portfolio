@@ -1,0 +1,35 @@
+.Projects {
+  margin: 0 20px 60px 20px;
+
+  &__card {
+    margin: 15px 0;
+
+    img {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    h4 {
+      font-size: $headline-tiny;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: $text-medium;
+      margin-bottom: 0;
+    }
+
+    &-footer {
+      a {
+        font-size: $text-small;
+        color: $gray;
+        font-weight: 100;
+        margin-right: 10px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

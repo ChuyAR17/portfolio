@@ -1,0 +1,33 @@
+.Menu {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: $primary;
+  top: 0;
+  z-index: -1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    padding: 0;
+
+    li {
+      margin-bottom: 20px;
+
+      a {
+        color: $white;
+        font-size: $headline-medium;
+      }
+    }
+  }
+
+  &__closed {
+    display: none;
+  }
+
+  &__open {
+    display: flex;
+  }
+}
