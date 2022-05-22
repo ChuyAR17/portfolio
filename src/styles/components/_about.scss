@@ -1,3 +1,6 @@
-.About {
-  margin: 0 20px 60px 20px;
+@media (min-width: 1024px) {
+  .About {
+    align-self: center;
+    width: 880px;
+  }
 }

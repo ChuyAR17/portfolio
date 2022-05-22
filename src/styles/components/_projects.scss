@@ -1,12 +1,17 @@
 .Projects {
-  margin: 0 20px 60px 20px;
 
   &__card {
-    margin: 15px 0;
+    margin: 1.4rem 0 3rem 0;
 
     img {
       width: 100%;
-      margin: 10px 0;
+      margin: 0.8rem 0;
+      filter: grayscale(100%);
+
+      &:hover {
+        transition: ease-in 0.3s;
+        filter: none;
+      }
     }
 
     h4 {
@@ -20,16 +25,25 @@
     }
 
     &-footer {
+      margin-top: 0.4rem;
+
       a {
         font-size: $text-small;
         color: $gray;
         font-weight: 100;
-        margin-right: 10px;
+        margin-right: 0.8rem;
 
         &:hover {
           cursor: pointer;
         }
       }
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  .Projects {
+    align-self: center;
+    width: 880px;
   }
 }

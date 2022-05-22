@@ -1,31 +1,36 @@
 .Header {
-  z-index: 999;
-  width: 100%;
-  height: 40px;
-  position: fixed;
-  top: 0;
-  left: 0;
+  align-items: center;
   background-color: $primary;
   display: flex;
-  align-items: center;
+  height: 3rem;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 
   .Header__menu,
   .Header__logo {
-    margin: 0 10px;
+    margin: 0 0.8rem;
     background-size: cover;
-    width: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .Header__menu {
-    height: 13px;
-
     &-open {
       background-image: url('../assets/Close.svg');
-      height: 18px;
+      height: 1.4rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     &-closed {
       background-image: url('../assets/Menu\ 1.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     &:hover {
@@ -35,9 +40,9 @@
 
   .Header__logo {
     background-image: url('../assets/Logo.svg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 22px;
+    background-position: center;
   }
 
   &__divider {
